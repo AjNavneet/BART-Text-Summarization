@@ -1,0 +1,4 @@
+Flask==2.0.1
+newspaper3k==0.2.8
+torch==1.8.1
+transformers==4.6.1
