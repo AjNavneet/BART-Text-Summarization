@@ -46,11 +46,11 @@ To execute abstractive text summarization on the given data using the BART model
 16. Execute BART summarization leveraging the pre-trained model.
 17. Grasp the concept of the BART evaluation metric - Rouge.
 18. For web application deployment:
-   - Set up a new environment.
-   - Install necessary packages from requirements.txt.
-   - Navigate to the output folder.
-   - Run app.py.
-   - Access the web application locally on port 5000.
-   - Input an article link for summarization, and the generated summary will be displayed.
+      - Set up a new environment.
+      - Install necessary packages from requirements.txt.
+      - Navigate to the output folder.
+      - Run app.py.
+      - Access the web application locally on port 5000.
+      - Input an article link for summarization, and the generated summary will be displayed.
 
 ---
