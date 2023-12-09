@@ -1,22 +1,20 @@
-# Abstractive Text Summarization Using BART for News Articles
+# BART-Based Abstractive Text Summarization for News Articles
 
 ### Business Objective
 
-Text summarization is a critical research area in the field of data science and natural language processing (NLP). It involves reducing the size of a document while preserving its meaning. Summarization techniques fall into two categories: extractive and abstractive summarization. This project focuses on abstractive summarization, which aims to generate concise summaries that may include new phrases not present in the original text.
-
-Abstractive summarization has applications in various domains, including science, literature, financial research, legal documents analysis, meetings, video conferencing, and programming languages. The objective of this project is to build a BART model for abstractive text summarization.
+Text summarization, a vital aspect of data science and natural language processing, involves condensing document size while retaining meaning. This project centers on abstractive summarization, specifically utilizing the BART model to generate concise summaries that may introduce new phrases not present in the original text. Applications span diverse domains, including science, literature, finance, legal analysis, meetings, video conferencing, and programming languages.
 
 ---
 
 ### Data Description
 
-The dataset used in this project consists of 40,000 professionally written summaries of news articles, along with links to the original articles. The data is obtained from a GitHub repository and is available in CSV format. It includes features such as article titles, summaries, URLs, dates, and article content.
+The dataset comprises 40,000 professionally crafted summaries of news articles, alongside links to the original articles. Sourced from a GitHub repository, the data is formatted in CSV, encompassing features such as article titles, summaries, URLs, dates, and article content.
 
 ---
 
 ### Aim
 
-To perform abstractive text summarization on the provided text data using the BART model.
+To execute abstractive text summarization on the given data using the BART model.
 
 ---
 
@@ -30,48 +28,29 @@ To perform abstractive text summarization on the provided text data using the BA
 
 ## Approach
 
-1. Import the dataset from the dataset library and load a subset for data overview.
-2. Clone the repository containing the data.
-3. Download the article titles, summaries, URLs, and dates into a CSV file.
-4. Create a new environment, install the necessary requirements, and scrape the data.
-5. Configure the runtime to use GPU for accelerated processing.
-6. Import required packages and libraries.
-7. Create a class function for the dataset.
+1. Import the dataset using the dataset library and load a subset for initial data exploration.
+2. Clone the repository housing the data.
+3. Download article titles, summaries, URLs, and dates into a CSV file.
+4. Set up a new environment, install required dependencies, and scrape the data.
+5. Configure the runtime to utilize GPU for enhanced processing.
+6. Import necessary packages and libraries.
+7. Develop a class function for the dataset.
 8. Create a class function for the BART data loader.
-9. Implement an abstractive summarization model class function.
-10. Create a BART tokenizer.
+9. Implement a class function for the abstractive summarization model.
+10. Establish a BART tokenizer.
 11. Define the data loader.
 12. Read and preprocess the data.
 13. Split the data into training and testing sets.
-14. Create the main class to run the 'BARTForConditionalGeneration' model and tokenizer.
-15. Define the trainer class and fit the model.
-16. Perform BART summarization using the pre-trained model.
-17. Understand the concept of the BART evaluation metric - Rouge.
-18. For running the web application:
-   - Create a new environment.
-   - Install the requirements from the requirements.txt file.
+14. Construct the main class for executing the 'BARTForConditionalGeneration' model and tokenizer.
+15. Define the trainer class and train the model.
+16. Execute BART summarization leveraging the pre-trained model.
+17. Grasp the concept of the BART evaluation metric - Rouge.
+18. For web application deployment:
+   - Set up a new environment.
+   - Install necessary packages from requirements.txt.
    - Navigate to the output folder.
    - Run app.py.
    - Access the web application locally on port 5000.
-   - Provide an article link for summarization, and the summary will be generated.
-
----
-
-## Key Concepts Explored
-
-1. Understanding the business problem and the importance of text summarization.
-2. In-depth knowledge of text summarization techniques, with a focus on abstractive summarization.
-3. Understanding the BART model and encoder-decoder architecture.
-4. Importing and working with the dataset.
-5. Importing and using essential libraries.
-6. Understanding pre-training and fine-tuning methodologies for NLP models.
-7. Learning to clone data repositories using 'git clone.'
-8. Fine-tuning the BART model using the Transformers library.
-9. Creating class functions for dataset handling and data loading.
-10. Implementing tokenization for NLP tasks.
-11. Splitting the data, training, and fitting the model.
-12. Performing abstractive summarization using the pre-trained model.
-13. Understanding the evaluation metric Rouge.
-14. Developing a web application for abstractive text summarization.
+   - Input an article link for summarization, and the generated summary will be displayed.
 
 ---
